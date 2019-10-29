@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:showIn="navigation_view">
+
+	<group android:checkableBehavior="single">
+
+		<item
+			android:id="@+id/nav_gallery"
+			android:icon="@drawable/ic_menu_gallery"
+			android:title="@string/menu_gallery" />
+		<item
+			android:id="@+id/designs"
+			android:icon="@drawable/ic_menu_slideshow"
+			android:title="@string/menu_designs" />
+		<item
+			android:id="@+id/moderation"
+			android:icon="@drawable/ic_menu_manage"
+			android:title="@string/menu_moderation" />
+	</group>
+
+	<!--<item android:title="Communicate">-->
+		<!--&lt;!&ndash;<menu>&ndash;&gt;-->
+			<!--&lt;!&ndash;<item&ndash;&gt;-->
+				<!--&lt;!&ndash;android:id="@+id/nav_share"&ndash;&gt;-->
+				<!--&lt;!&ndash;android:icon="@drawable/ic_menu_share"&ndash;&gt;-->
+				<!--&lt;!&ndash;android:title="@string/menu_share" />&ndash;&gt;-->
+			<!--&lt;!&ndash;<item&ndash;&gt;-->
+				<!--&lt;!&ndash;android:id="@+id/nav_send"&ndash;&gt;-->
+				<!--&lt;!&ndash;android:icon="@drawable/ic_menu_send"&ndash;&gt;-->
+				<!--&lt;!&ndash;android:title="@string/menu_send" />&ndash;&gt;-->
+		<!--&lt;!&ndash;</menu>&ndash;&gt;-->
+	<!--&lt;!&ndash;</item>&ndash;&gt;-->
+
+</menu>
